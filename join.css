@@ -1,0 +1,86 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    font-family: sans-serif;
+    height: auto;
+    width: 100%;
+    margin: 2%;
+    padding: 1.2;
+    background-color: #1e232e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; 
+    /* background: url("imageCC.png") center/cover no-repeat; */
+}
+
+body h1{
+    color: #F5A623;
+    font-size: 36px;
+    margin-top: 20px;
+}
+body p{
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.context {
+    margin-top: 20px; /* Optional: Add some margin to the top of the context */
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.card{
+    width:325px;
+    background-color: transparent;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    margin:20px;
+}
+.card img{
+    width:100px;
+    height: auto;
+    display: center; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+}
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+.card-content{
+    padding: 16px;
+}
+.card-content h2{
+    color:#F5A623;
+    font-size: 28px;
+    margin-bottom:8px;
+}
+
+.card-content p{
+    color:#FFFFFF;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.card-content .btn{
+    display: inline-block;
+    padding:8px 16px;
+    background-color: #333;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top:16px;
+    color:#fff;
+}

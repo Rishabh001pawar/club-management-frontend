@@ -1,0 +1,107 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #070419;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container Styling */
+#artDetails {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #070419;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+/* Headings Styling */
+#artDetails h2 {
+    font-size: 2rem;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #00aaff;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+#artDetails h3 {
+    font-size: 1.5rem;
+    color: #0a98f7;
+    margin-top: 20px;
+}
+
+/* Paragraph Styling */
+#artDetails p {
+    color: #ffffff;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    line-height: 1.8;
+
+}
+
+/* List Styling */
+#artDetails ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0;
+}
+
+#artDetails ul li {
+    font-size: 1rem;
+    color: #ffffff;
+    padding: 5px 0;
+    border-left: 4px solid #3498db;
+    padding-left: 10px;
+}
+
+/* Image Styling */
+#Bcg {
+    display: block;
+    max-width: 50%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Contact Section */
+#artDetails p:last-of-type {
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+/* Hover Effects */
+#artDetails ul li:hover {
+    background-color: #010116;
+    border-color: #c1cc2e;
+    transition: 0.3s ease-in-out;
+}
+
+#artDetails h3:hover {
+    color: #c9cc2e;
+    transition: 0.3s ease-in-out;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #artDetails {
+        padding: 15px;
+    }
+
+    #artDetails h2 {
+        font-size: 1.8rem;
+    }
+
+    #artDetails h3 {
+        font-size: 1.3rem;
+    }
+
+    #artDetails p {
+        font-size: 0.9rem;
+    }
+}

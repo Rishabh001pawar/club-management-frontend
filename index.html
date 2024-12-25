@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Connect</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+<div id="headerwrapper">
+    <header>
+        <section id="Section1">
+            <nav class="navbar">
+                <span class="hamburger-btn material-symbols-rounded">menu</span>
+                <a href="#" class="logo">
+                    <img src="logo cc.png" alt="Campus Connect logo">
+                    <h2>Campus Connect</h2>
+                </a>
+                <ul class="links">
+                    <span class="close-btn material-symbols-rounded">close</span>
+                    <li><a href="#Section1">Home</a></li>
+                    <li><a href="#club">Clubs</a></li>
+                    <li><a href="#Events">Events</a></li>
+                    <li><a href="#about-us">About Us</a></li>
+                    <li><a href="#contact-us">Contact Us</a></li>
+                </ul>
+                <button class="login-btn">LOG IN</button>
+            </nav>
+            <div class="context">
+                <span class="text">
+                    <h2>Let's Grow Together</h2>
+                    <p>We Believe In Collaboration over Competition</p>
+                    <buton class="buton">
+                        <a href="join us.html" class="buton">Why Join Us?</a>
+                    </buton>
+                </span>
+            </div>
+        </section>
+    </header>
+    <div class="blur-bg-overlay"></div>
+    <div class="form-popup">
+        <span class="close-btn material-symbols-rounded">close</span>
+        <div class="form-box login">
+            <div class="form-details">
+                <h2>Welcome Back</h2>
+                <p>Please log in using your personal information to stay connected with us.</p>
+            </div>
+            <div class="form-content" id="loginForm">
+                <h2>LOGIN</h2>
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" required title="Email" placeholder="Enter your email">
+                        <label>Email</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" required title="Create password" placeholder="Create password">
+                        <label>Password</label>
+                    </div>
+                    <a href="#" class="forgot-pass-link">Forgot password?</a>
+                    <button type="submit">Log In</button>
+                </form>
+                <div class="bottom-link">
+                    Don't have an account?
+                    <a href="#" id="signup-link">Signup</a>
+                </div>
+            </div>
+        </div>
+        <div class="form-box signup">
+            <div class="form-details">
+                <h2>Create Account</h2>
+                <p>To become a part of our community, please sign up using your personal information.</p>
+            </div>
+            <div class="form-content">
+                <h2>SIGNUP</h2>
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" required title="Email" placeholder="Enter your email">
+                        <label>Enter your email</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" required title="Create password" placeholder="Create password">
+                        <label>Create password</label>
+                    </div>
+                    <div class="policy-text">
+                        <input type="checkbox" id="policy">
+                        <label for="policy">
+                            I agree to the
+                            <a href="#" class="option">Terms & Conditions</a>
+                        </label>
+                    </div>
+                    <button type="submit">Sign Up</button>
+                </form>
+                <div class="bottom-link">
+                    Already have an account?
+                    <a href="#" id="login-link">Login</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- Add more sections below as needed -->
+
+    <div id="sections">
+        <section class="collection">
+            <div id="club">
+                <h2 class="sec-heading">OUR CLUBS</h2>
+                <p>Our College has various Technical, Cultural & Social Clubs</p>
+                <div class="collection">
+                    <div class="swiper mySwiper">
+                      <div class="swiper-wrapper">
+                    <div class="content swiper-slide">
+                      <img src="Image1.jpg" alt="">
+                      <div class="text-content">
+                        <h3>Photography</h3>
+                        <p>
+                          Photography is the art of capturing light and moments, telling stories through images that evoke emotions, preserve memories, and inspire creativity.</p>
+                        <div class="btn">
+                          <a href="readmore1.html">Read more</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="content swiper-slide">
+                      <img src="Image1.jpg" alt="">
+                      <div class="text-content">
+                        <h3>Photography</h3>
+                        <p>
+                          Photography is the art of capturing light and moments, telling stories through images that evoke emotions, preserve memories, and inspire creativity.</p>
+                          <a href="readmore5.html" class="btn">Read more</a>
+                      </div>
+                    </div>
+                    <div class="content swiper-slide">
+                      <img src="Image1.jpg" alt="">
+                      <div class="text-content">
+                        <h3>Photography</h3>
+                        <p>
+                          Photography is the art of capturing light and moments, telling stories through images that evoke emotions, preserve memories, and inspire creativity.</p>
+                          <a href="readmore5.html" class="btn">Read more</a>
+                      </div>
+                    </div>
+                    <div class="content swiper-slide">
+                      <img src="Image1.jpg" alt="">
+                      <div class="text-content">
+                        <h3>Photography</h3>
+                        <p>
+                          Photography is the art of capturing light and moments, telling stories through images that evoke emotions, preserve memories, and inspire creativity.</p>
+                          <a href="readmore5.html" class="btn">Read more</a>
+                      </div>
+                    </div>
+                    <div class="content swiper-slide">
+                      <img src="Image1.jpg" alt="">
+                      <div class="text-content">
+                        <h3>Photography</h3>
+                        <p>
+                          Photography is the art of capturing light and moments, telling stories through images that evoke emotions, preserve memories, and inspire creativity.</p>
+                          <a href="readmore5.html" class="btn">Read more</a>
+                      </div>
+                    </div>
+                    <div class="content swiper-slide">
+                      <img src="Image1.jpg" alt="">
+                      <div class="text-content">
+                        <h3>Photography</h3>
+                        <p>
+                          Photography is the art of capturing light and moments, telling stories through images that evoke emotions, preserve memories, and inspire creativity.</p>
+                          <a href="readmore5.html" class="btn">Read more</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div id="section">
+      <div id="Events">
+        <h2 class="sec-heading">Events</h2>
+      </div>
+      <div class="card-containers">
+        <!-- First Event Card -->
+        <div class="cards">
+          <img src="smart.jpg" alt="Event Image">
+          <div class="cardcontent">
+            <h3>Amazing Event 1</h3>
+            <p>Join us for an engaging evening filled with fun activities, guest speakers, and networking opportunities!</p>
+            <div class="more-content">
+              <p>This event will feature an inspiring keynote speech by John Doe, an industry leader in technology, followed by a series of panel discussions on the latest trends in tech and entrepreneurship. Our goal is to bring together innovators, investors, and aspiring entrepreneurs to share knowledge and build lasting connections.</p>
+              <p><strong>Speakers:</strong><br>
+              John Doe, Industry Leader in Tech Innovations<br>
+              Jane Smith, Founder of Tech Ventures</p>
+              <p><strong>Agenda:</strong><br>
+              6:00 PM - Opening Remarks<br>
+              6:30 PM - Keynote Speech by John Doe<br>
+              7:00 PM - Networking & Refreshments<br>
+              8:00 PM - Dinner & Live Music</p>
+              <h4>Register Now:</h4>
+              <p>Click the link below to register for the event:</p>
+              <a href="https://forms.gle/CdFMgMExKETmqeyD7" target="_blank" rel="noopener" class="BTN">Register Here</a>
+            </div>
+            <a href="javascript:void(0)" class="BTN" onclick="toggleContent(this)">Read More</a>        
+          </div>
+        </div>
+        
+        <!-- Second Event Card -->
+        <div class="cards">
+          <img src="smart.jpg" alt="Event Image">
+          <div class="cardcontent">
+            <h3>Amazing Event 2</h3>
+            <p>Join us for an evening of inspiring talks and interactive workshops on entrepreneurship, innovation, and personal development!</p>
+            <div class="more-content">
+              <p>This event will explore the key elements of building a successful startup, with interactive workshops led by industry professionals. You'll learn strategies for pitching, fundraising, and scaling a business from entrepreneurs who have successfully navigated these challenges.</p>
+              <p><strong>Speakers:</strong><br>
+              Alice Johnson, Entrepreneur and Investor<br>
+              Mark Thompson, CEO of InnovateX</p>
+              <p><strong>Agenda:</strong><br>
+              6:00 PM - Welcome and Networking<br>
+              6:30 PM - Workshop on Pitching & Fundraising<br>
+              7:30 PM - Speaker Panel: Scaling Your Startup<br>
+              8:30 PM - Networking & Closing Remarks</p>
+              <h4>Register Now:</h4>
+              <p>Click the link below to register for the event:</p>
+              <a href="https://forms.gle/CdFMgMExKETmqeyD7" target="_blank" rel="noopener" class="BTN">Register Here</a>
+            </div>
+            <a href="javascript:void(0)" class="BTN" onclick="toggleContent(this)">Read More</a>        
+          </div>
+        </div>
+        
+        <!-- Third Event Card -->
+        <div class="cards">
+          <img src="smart.jpg" alt="Event Image">
+          <div class="cardcontent">
+            <h3>Amazing Event 3</h3>
+            <p>Join us for an evening of inspiring talks and interactive workshops on entrepreneurship, innovation, and personal development!<</p>
+            <div class="more-content">
+              <p>This event is dedicated to exploring cutting-edge trends in business and technology. Hear from leading experts about future developments in AI, blockchain, and sustainable business practices. It's an opportunity to gain valuable insights and connect with industry professionals.</p>
+              <p><strong>Speakers:</strong><br>
+              Sarah Lee, AI Expert and Entrepreneur<br>
+              Tom Brown, CEO of GreenTech Solutions</p>
+              <p><strong>Agenda:</strong><br>
+              6:00 PM - Registration and Networking<br>
+              6:30 PM - Keynote Speech on AI & Blockchain<br>
+              7:15 PM - Panel Discussion: The Future of Sustainable Business<br>
+              8:00 PM - Closing Remarks and Networking</p>
+              <h4>Register Now:</h4>
+              <p>Click the link below to register for the event:</p>
+              <a href="https://forms.gle/CdFMgMExKETmqeyD7" target="_blank" rel="noopener" class="BTN">Register Here</a>
+            </div>
+            <a href="javascript:void(0)" class="BTN" onclick="toggleContent(this)">Read More</a>        
+          </div>
+        </div>
+      </div>
+    </div>
+    <style>
+    .more-content {
+  display: none;
+  padding: 30px;
+  background: linear-gradient(145deg, #1a2029, #222831);
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}.more-content:hover {
+  transform: scale(1.02);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+}.more-content p {
+  line-height: 1.8;
+  color: #ffffff;
+  font-size: 15px;
+  margin-bottom: 15px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}.more-content strong {
+  font-weight: bold;
+  color: #F5A623;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}.more-content h4 {
+  color: #F5A623;
+  font-size: 20px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}.more-content h2 {
+  color: #F5A623;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}.more-content h1 {
+  color: #F5A623;
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+}.more-content a.BTN {
+  display: inline-block;
+  padding: 15px 25px;
+  background: linear-gradient(145deg, #007BFF, #0056b3);
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  margin-top: 15px;
+  box-shadow: 0 5px 15px rgba(0, 123, 255, 0.3);
+}.more-content a.BTN:hover {
+  background: linear-gradient(145deg, #0056b3, #003d7a);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 123, 255, 0.4);
+}.more-content a.BTN:active {
+  background: linear-gradient(145deg, #003d7a, #001d40);
+  transform: translateY(0);
+  box-shadow: 0 2px 10px rgba(0, 123, 255, 0.2);
+}
+    </style> 
+    <script>
+      function toggleContent(button) {
+        var content = button.previousElementSibling; 
+        if (content.style.display === "none" || content.style.display === "") {
+          content.style.display = "block";
+          button.textContent = "Read Less";
+        } else {
+          content.style.display = "none";
+          button.textContent = "Read More";
+        }
+      }
+    </script>
+    
+    </div>    
+    <div id="sections">
+      <div id="about-us">
+        <h2 class="sec-heading">About Us</h2>
+        <br>
+        <h3>Campus connect</h3>
+            <p>Awesome College Clubs</p>
+      </div>
+      <div class="about-us">
+        <div class="section">
+        </div>
+    
+        <div class="section">
+            <h3>Mission Statement</h3>
+            <p>Our mission is to foster a vibrant campus community by supporting student-led clubs that promote leadership, inclusivity, and engagement. We provide resources and opportunities for personal and professional growth, empowering students to explore interests, build skills, and form connections. By promoting active participation and diverse voices, we enhance the college experience and contribute to a thriving campus culture.</p>
+        </div>
+    
+        <div class="section">
+            <h3>History</h3>
+            <p>Founded in 2024, Campus Connect has grown from a small group of enthusiasts to a vibrant community of over 100 members. We have organized numerous events, workshops, and community service projects.</p>
+        </div>
+    
+        <div class="section">
+            <h3>Values</h3>
+            <ul>
+                <li>Inclusivity</li>
+                <li>Collaboration</li>
+                <li>Innovation</li>
+                <li>Community Engagement</li>
+            </ul>
+        </div>
+    
+        <div class="section">
+            <h3>Activities</h3>
+            <p>We organize a variety of activities including workshops, guest speaker events, social gatherings, and community service projects. Our goal is to engage members and provide valuable experiences.</p>
+        </div>
+    
+        <div class="section">
+            <h3>Membership</h3>
+            <p>All students are welcome to join! To become a member, please <a id="loginForm" href="registrationlink.html">click here</a> to login </p>
+        </div>
+
+    </div>    
+     </div>
+  
+    <d id="sections">
+      <div id="contact-us">
+       <h2 class="sec-heading"></h2>
+      </div>
+     <div class="container">
+    <div class="contact-form">
+        <h2>Contact US</h2>
+        <p>We are here to help and answer any questions you might have. We are looking forward to hear from you.</p>
+        <form action="#">
+            <input type="text" placeholder="Enter Your Name" required>
+            <input type="email" placeholder="Enter Your Email ID" required>
+            <input type="tel" placeholder="Enter Your Mobile No" required>
+            <textarea placeholder="Enter Your Message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+  </div>
+    <!-- Footer -->
+    <footer>
+      <div class="footer-container">
+        
+        <!-- About Section -->
+        <div>
+          <h3>About Us</h3>
+          <p>We are dedicated to providing high-quality services and building long-lasting relationships with our Projects.</p>
+          <p><strong>Created by Rishabh</strong></p>
+        </div>
+  
+        <!-- Quick Links -->
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <a href="#">Home</a>
+          <a href="#">clubs</a>
+          <a href="#">Events</a>
+          <a href="#">About us</a>
+          <a href="#">contact us</a>
+        </div>
+  
+        <!-- Social Media -->
+        <div>
+          <h3>Follow Us</h3>
+          <div class="social-icons">
+            <a href="https://www.instagram.com/rishabh007?igsh=MXYzZnlhdWhyODNqYg==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/rishabh-farkade-91600a263?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://wa.me/yourphonenumber" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>>
+        </div>
+      </div>
+  
+      <!-- Copyright Notice -->
+      <div class="copyright">
+        &copy; 2024 Your Company. All rights reserved.
+      </div>
+      
+    </footer>
+</body>
+</html>
