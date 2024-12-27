@@ -69,18 +69,20 @@ body p{
     margin-bottom:8px;
 }
 
-.card-content p{
-    color:#FFFFFF;
-    font-size: 16px;
-    line-height: 1.4;
+/* Paragraph styling inside card content */
+.card-content p {
+    color: #FFFFFF; /* White text for good contrast on darker backgrounds */
+    font-size: 16px; /* Standard readable font size */
+    line-height: 1.4; /* Adds spacing between lines for better readability */
 }
 
-.card-content .btn{
-    display: inline-block;
-    padding:8px 16px;
-    background-color: #333;
-    text-decoration: none;
-    border-radius: 4px;
-    margin-top:16px;
-    color:#fff;
+/* Button styling inside card content */
+.card-content .btn {
+    display: inline-block; /* Makes the button behave like an inline block */
+    padding: 8px 16px; /* Adds inner spacing for a clickable area */
+    background-color: #333; /* Dark background for a modern appearance */
+    text-decoration: none; /* Removes underline from the button link */
+    border-radius: 4px; /* Slightly rounded corners for a soft look */
+    margin-top: 16px; /* Adds spacing between the button and preceding content */
+    color: #fff; /* White text color for contrast on the dark background */
 }
